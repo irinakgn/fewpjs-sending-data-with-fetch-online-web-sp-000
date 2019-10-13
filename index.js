@@ -7,7 +7,7 @@ function submitData(name,email){
   },
   body: JSON.stringify({
     name: "Steve",
-    email: "kagan@irina.com"
+    email: "steve@steve.com"
   })
 });
 }
