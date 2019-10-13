@@ -1,5 +1,5 @@
 function submitDate(name,email){
-  fetch("http://localhost:3000/users", {
+  return fetch("http://localhost:3000/users", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
