@@ -9,5 +9,9 @@ function submitData(name,email){
     name: "Steve",
     email: "steve@steve.com"
   })
-});
+}).then(res => res.json()).then(res =>
+  var node = document.createElement("LI");                 // Create a <li> node
+  var textnode = document.createTextNode("Water");         // Create a text node
+  node.appendChild(res.data);  
+);
 }
